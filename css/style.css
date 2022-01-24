@@ -7,13 +7,11 @@
 
 
 
-.mainbox{
-    margin: 0 10%;
-}
 
 header {
     width: 100%;
     margin: auto;
+    text-align: center;
 }
 .imgbox{
     height: 90vh;
@@ -23,10 +21,14 @@ header {
     background-size: contain;    
 }
 
+.marginlr{
+    margin: 0 10%;
+}
+
 .boxlogodiscord {
     
     display: inline-block;
-    width: 20%;
+    width: 150px;
     height: 50px;
     margin-top: 10px;
 }
@@ -34,7 +36,6 @@ header {
 .boxlogodiscord img{
     vertical-align: middle;
     line-height: 15px;
-    width: 150px;
     height: 100%;
     margin: auto;
 }
@@ -42,48 +43,54 @@ header {
 .navup{
     display: inline-block;
     vertical-align: middle;   
-    width: 700px;
+    width: calc(100% - 270px);
     text-align: center;
-    margin-left: 100px;
-    /* width: 40%; */
+    text-decoration: none;
+    color: white;
 } 
+
+.navup a {
+    text-decoration: none;
+    color: white;
+}
 
 .navup ul{
     font-size: 0;
     display: inline-block;
     vertical-align: middle;
-    /* height: 100px; */
-    /* line-height: 100px; */
-    /* margin: 0 5%; */
-    /* max-width: 100%; */
+    text-align: center;
+    text-decoration: none;
+    color: white;
     
 }
 
 .navup li{
-    display: inline;
-    color: white;
-    padding:0 2rem;
+    display: inline-block;
     font-size: 1.2rem;
-    vertical-align: middle;
-    width: 100%;
-    /* margin: 0 3px; */
-    
+    vertical-align: middle;   
+    text-decoration: none;
+    color: white; 
+    padding-right: 3rem;
 }
 
-.loginbutton {
-    width: 20%;
+.loginbutton{
+    text-decoration: none;
+    color: black;
     display: inline-block;
-    text-align: center;
-   
+    text-align: right;
 }
+
 
 .loginbutton div {
     width: 80px;
     height: 40px;
     background-color: white;
-    border-radius: 30%;
+    border-radius: 40px;
     text-align: center;
-    margin-left: 350px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    
 }
 
 .loginbutton span {
@@ -129,6 +136,18 @@ header {
 
 }
 
+
+.buttonbox a{
+    text-decoration: none;
+    color: black;
+}
+
+.arrow-down{
+    line-height: 70px;
+    vertical-align: middle;
+    font-weight: 1000;
+}
+
 .buttonbox{
     margin-top: 20px;
     margin-left: 25%;
@@ -156,31 +175,37 @@ header {
 
 }
 
-.box{
-    margin: 0 20%;
-}
 
-
-
-.imgleft::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
 
 .imgleft{
-    width: 60%;
-    float: left;
-    /* margin-left: 10%; */
-    
+    width: 50%;    
+    display: inline-block;  
+    vertical-align: middle;
+}
+
+.imgleft img {
+    width: 100%;
+
 }
 
 .textright{
-   margin-left: 50%;
+   width: 300px;
+   display: inline-block;
+   vertical-align: middle;
+   margin-left: 10%;
+   
 }
 
   .textright h2{
       font-size: 2.5rem;
-
-
+      display: inline-block;
   }
+
+  .textright p{
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      display: inline-block;
+  }
+
+  .box1{ margin-top: 5%;
+        }
