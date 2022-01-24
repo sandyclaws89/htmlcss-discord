@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.mainbox{
+    margin: 0 10%;
+}
+
+header {
+    width: 100%;
+    /* margin: auto; */
+}
+.imgbox{
+    height: 90vh;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;    
+}
+
+.boxlogodiscord {
+    
+    display: inline-block;
+    width: 20%;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.boxlogodiscord img{
+    vertical-align: middle;
+    line-height: 15px;
+    width: 150px;
+    height: 100%;
+    margin: auto;
+}
+
+.navup{
+    display: inline-block;
+    vertical-align: middle;   
+    width: 40%;
+    text-align: center;
+    /* width: 40%; */
+} 
+
+.navup ul{
+    font-size: 0;
+    display: inline-block;
+    vertical-align: middle;
+    /* height: 100px; */
+    /* line-height: 100px; */
+    margin: 0 5%;
+    /* max-width: 100%; */
+    
+}
+
+.navup li{
+    display: inline;
+    color: white;
+    /* padding:0 2rem; */
+    font-size: 1.2rem;
+    vertical-align: middle;
+    max-width: 100%;
+    margin: 0 10px;
+    
+}
+
+.loginbutton {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+   
+}
+
+.loginbutton div {
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30%;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.loginbutton span {
+    line-height: 40px;
+    padding: .2;
+}
