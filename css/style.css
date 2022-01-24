@@ -13,7 +13,7 @@
 
 header {
     width: 100%;
-    /* margin: auto; */
+    margin: auto;
 }
 .imgbox{
     height: 90vh;
@@ -93,9 +93,9 @@ header {
 
 .textbox1{
     text-align: center;
-    margin-top: 15%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-top: 10%;
+    margin-left: 23%;
+    margin-right: 23%;
     line-height: 2.5rem;
 }
 
@@ -156,6 +156,31 @@ header {
 
 }
 
-.
+.box{
+    margin: 0 20%;
+}
 
 
+
+.imgleft::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+.imgleft{
+    width: 60%;
+    float: left;
+    /* margin-left: 10%; */
+    
+}
+
+.textright{
+   margin-left: 50%;
+}
+
+  .textright h2{
+      font-size: 2.5rem;
+
+
+  }
