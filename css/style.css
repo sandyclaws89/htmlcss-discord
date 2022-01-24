@@ -42,8 +42,9 @@ header {
 .navup{
     display: inline-block;
     vertical-align: middle;   
-    width: 40%;
+    width: 700px;
     text-align: center;
+    margin-left: 100px;
     /* width: 40%; */
 } 
 
@@ -53,7 +54,7 @@ header {
     vertical-align: middle;
     /* height: 100px; */
     /* line-height: 100px; */
-    margin: 0 5%;
+    /* margin: 0 5%; */
     /* max-width: 100%; */
     
 }
@@ -61,11 +62,11 @@ header {
 .navup li{
     display: inline;
     color: white;
-    /* padding:0 2rem; */
+    padding:0 2rem;
     font-size: 1.2rem;
     vertical-align: middle;
-    max-width: 100%;
-    margin: 0 10px;
+    width: 100%;
+    /* margin: 0 3px; */
     
 }
 
@@ -82,10 +83,79 @@ header {
     background-color: white;
     border-radius: 30%;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 350px;
 }
 
 .loginbutton span {
     line-height: 40px;
     padding: .2;
 }
+
+.textbox1{
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 2.5rem;
+}
+
+.textbox1 h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 3.2rem;
+
+}
+
+.textbox1 p{
+    margin-top: 2.8rem;
+    color: white;
+    
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+
+}
+
+.downloadbox{
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    border-radius: 35%;
+    line-height: 70px;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.buttonbox{
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.buttonbox span{
+    font-size: 1.3rem;  
+}
+
+
+.openbox{
+    width: 350px;
+    height: 70px;
+    background-color: black;
+    border-radius: 35%;
+    vertical-align: middle;    
+    display: inline-block;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    line-height: 70px;
+
+}
+
+.
+
+
