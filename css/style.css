@@ -61,7 +61,6 @@ header {
     text-align: center;
     text-decoration: none;
     color: white;
-    
 }
 
 .navup li{
@@ -80,7 +79,6 @@ header {
     text-align: right;
 }
 
-
 .loginbutton div {
     width: 80px;
     height: 40px;
@@ -90,7 +88,6 @@ header {
     display: inline-block;
     text-decoration: none;
     color: black;
-    
 }
 
 .loginbutton span {
@@ -100,44 +97,42 @@ header {
 
 .textbox1{
     text-align: center;
-    margin-top: 10%;
-    margin-left: 23%;
-    margin-right: 23%;
+    width: 50%;
     line-height: 2.5rem;
+    margin: auto;
 }
 
 .textbox1 h1{
+    margin-top: 20%;
     color: white;
     font-weight: bolder;
     font-size: 3.2rem;
-
 }
 
 .textbox1 p{
     margin-top: 2.8rem;
     color: white;
-    
     font-size: 1.3rem;
     line-height: 2.5rem;
+}
 
+.buttonbox{
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;  
 }
 
 .downloadbox{
-    width: 250px;
-    height: 70px;
+    width: 230px;
+    height: 50px;
     background-color: white;
-    border-radius: 35%;
-    line-height: 70px;
+    border-radius: 40px;
+    line-height: 50px;
     display: inline-block;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
     vertical-align: middle;
-
-}
-
-
-.buttonbox a{
     text-decoration: none;
     color: black;
 }
@@ -148,39 +143,46 @@ header {
     font-weight: 1000;
 }
 
-.buttonbox{
-    margin-top: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
-    
-}
-
 .buttonbox span{
     font-size: 1.3rem;  
 }
 
-
 .openbox{
     width: 350px;
-    height: 70px;
+    height: 50px;
     background-color: black;
-    border-radius: 35%;
+    border-radius: 40px;
     vertical-align: middle;    
     display: inline-block;
     color: white;
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
-    line-height: 70px;
-
+    line-height: 50px;
 }
 
 
 
+  .box1{ 
+    margin-top: 5%;
+    text-align: center;
+    }
+
+
+
+
+.box2{
+    margin-top: 15%;
+    text-align: center;
+
+}
+
+
 .imgleft{
-    width: 50%;    
-    display: inline-block;  
+    display: inline-block;
+    width: 700px;    
     vertical-align: middle;
+    text-align: left;
 }
 
 .imgleft img {
@@ -189,23 +191,51 @@ header {
 }
 
 .textright{
-   width: 300px;
+   width: calc(100% - 900px);
    display: inline-block;
    vertical-align: middle;
-   margin-left: 10%;
+  
+   text-align: right;
    
 }
 
   .textright h2{
       font-size: 2.5rem;
       display: inline-block;
+      font-weight: 700;
   }
 
   .textright p{
       margin-top: 1rem;
       font-size: 1.2rem;
       display: inline-block;
+      
   }
 
-  .box1{ margin-top: 5%;
-        }
+  .textleft {
+      width: 30%;
+      display: inline-block;
+  }
+
+  .textleft h2{
+    font-size: 2.5rem;
+    display: inline-block;
+    font-weight: 700;
+  }
+
+  .textleft p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.imgright{
+    width: 700px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+
+}
+
+
